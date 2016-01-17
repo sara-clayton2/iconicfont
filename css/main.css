@@ -151,7 +151,7 @@ a {
     }
 	
 	 50% {
-        top: 10%;
+        top: 80%;
     }
 	
 
@@ -175,7 +175,7 @@ a {
     }
 	
 	 50% {
-        top: 10%;
+        top: 80%;
     }
 	
 
@@ -192,7 +192,14 @@ a {
     margin-right: 50%; 
 }
 	
-.bounce {
+
+
+}
+
+
+@media only screen and (min-width: 40em) { 
+
+	.bounce {
   position: absolute;
   left:50%;
   animation:myanimation 5s infinite ease-in-out;
@@ -237,12 +244,6 @@ a {
         left: 100%;
     }
 }
-
-
-}
-
-
-@media only screen and (min-width: 40em) { 
 
 }
 
