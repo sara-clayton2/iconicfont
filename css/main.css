@@ -21,7 +21,9 @@ body {
 	background-color: #6E7B80;
 }
 
-img {max-width:90%;}
+img {
+	max-width:90%;
+}
 
 .icon-stars { 
 	color: #DDC38A;
@@ -86,7 +88,6 @@ img {max-width:90%;}
 
 .icon-asleep { 
 	font-size: 7em;
-
 }
 
 .face { 
@@ -99,28 +100,56 @@ img {max-width:90%;}
 .icon-sheepish { 
 	font-size: 5em;
 	color: #3A3A3A;
+	position: relative;
 }
 
 .bounce {
-  position:fixed;
+  position: absolute;
   left:50%;
-  animation:bounce 1s infinite;
-  -webkit-animation:bounce 1s infinite;
+  animation:myanimation 5s infinite ease-in-out;
+  -webkit-animation:myanimation 5s infinite ease-in-out;
 }
 
-@-keyframes bounce {
-  0%       {top:51px; }
-  25%, 75% { top:15px; }
-  50%      { top:20px; }
-  100%     {top:0;}
+@keyframes myanimation
+{
+    0% {
+        left: -5%;
+    }
+	
+	 50% {
+        top: 45%;
+    }
+	
+
+    100% {
+        left: 100%;
+    }
 }
 
-@-webkit-keyframes bounce {
-  0%       { top:5px; }
-  25%, 75% { top:15px; }
-  50%      { top:20px; }
-  100%     {top:0;}
+.bounce2 {
+  position: absolute;
+  left:50%;
+  animation:myanimationz 7s infinite ease-in-out;
+  -webkit-animation:myanimationz 7s infinite ease-in-out;
 }
+
+@keyframes myanimationz
+{
+    0% {
+        left: -5%;
+    }
+	
+	 50% {
+        top: 45%;
+    }
+	
+
+    100% {
+        left: 100%;
+    }
+}
+
+
 
 @media only screen and (min-width: 30em) { 
 		
@@ -140,7 +169,4 @@ img {max-width:90%;}
 
 
 }
-
-
-
 
