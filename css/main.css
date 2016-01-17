@@ -237,7 +237,7 @@ a {
 
 @-keyframes animation {
     0% {
-        left: -5%;
+        left: 0%;
     }
 	
 	 50% {
@@ -251,7 +251,7 @@ a {
 }
 @-webkit-keyframes animation {
     0% {
-        left: -5%;
+        left: 0%;
     }
 	
 	 50% {
@@ -275,7 +275,7 @@ a {
 
 @-keyframes animationz {
     0% {
-        left: -5%;
+        left: 0%;
     }
 	
 	 50% {
@@ -290,7 +290,7 @@ a {
 	
 @-webkit-keyframes animationz {
     0% {
-        left: -5%;
+        left: 0%;
     }
 	
 	 50% {
