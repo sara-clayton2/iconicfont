@@ -147,11 +147,11 @@ a {
 
 @keyframes animation {
     0% {
-        left: -5%;
+        left: 0%;
     }
 	
 	 50% {
-        top: 70%;
+        top: 10%;
     }
 	
 
@@ -171,11 +171,11 @@ a {
 
 @keyframes animationz {
     0% {
-        left: -10%;
+        left: 0%;
     }
 	
 	 50% {
-        top: 60%;
+        top: 10%;
     }
 	
 
