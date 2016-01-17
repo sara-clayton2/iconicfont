@@ -139,10 +139,10 @@ a {
 }
 
 .bounce {
-  position: absolute;
-  left:50%;
-  animation: animation 5s infinite ease-in-out;
-  -webkit-animation: animation 5s infinite ease-in-out;
+	  position: absolute;
+	  left:50%;
+	  animation: animation 5s infinite ease-in-out;
+	  -webkit-animation: animation 5s infinite ease-in-out;
 }
 
 @keyframes animation {
@@ -191,7 +191,7 @@ a {
     }
 	
 	 50% {
-        top: 80%;
+        top: 50%;
     }
 	
 
@@ -206,7 +206,7 @@ a {
     }
 	
 	 50% {
-        top: 80%;
+        top: 50%;
     }
 	
 
@@ -222,28 +222,39 @@ a {
 	margin-left: 45%;
     margin-right: 50%; 
 }
-	
-
 
 }
 
 
 @media only screen and (min-width: 40em) { 
 
-	.bounce {
-  position: absolute;
-  left:50%;
-  animation:myanimation 5s infinite ease-in-out;
-  -webkit-animation:myanimation 5s infinite ease-in-out;
+.bounce {
+	  position: absolute;
+	  left:50%;
+	  animation: animation 5s infinite ease-in-out;
+	  -webkit-animation: animation 5s infinite ease-in-out;
 }
 
-@keyframes myanimation {
+@keyframes animation {
     0% {
         left: -5%;
     }
 	
 	 50% {
-        top: 45%;
+        top: 50%;
+    }
+	
+
+    100% {
+        left: 100%;
+    }
+@-webkit-keyframes animation {
+    0% {
+        left: -5%;
+    }
+	
+	 50% {
+        top: 50%;
     }
 	
 
@@ -253,21 +264,36 @@ a {
 }
 
 .bounce2 {
-  position: absolute;
-  left: -10%;
-  animation:myanimationz 7s infinite ease-in-out;
-  -webkit-animation:myanimationz 7s infinite ease-in-out;
-  -webkit-animation-delay: 2s; 
-   animation-delay: 2s;
+	  position: absolute;
+	  left: -10%;
+	  animation: animationz 7s infinite ease-in-out;
+	  -webkit-animation: animationz 7s infinite ease-in-out;
+	  -webkit-animation-delay: 2s; 
+	   animation-delay: 2s;
 }
 
-@keyframes myanimationz {
+@keyframes animationz {
     0% {
         left: -5%;
     }
 	
 	 50% {
-        top: 45%;
+        top: 50%;
+    }
+	
+
+    100% {
+        left: 100%;
+    }
+}
+	
+@-webkit-keyframes animationz {
+    0% {
+        left: -5%;
+    }
+	
+	 50% {
+        top: 50%;
     }
 	
 
