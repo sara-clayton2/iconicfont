@@ -30,6 +30,17 @@ a {
 	color:  #3A3A3A;
 }
 
+p { 
+	font-family: sans-serif;
+	text-align: center;
+	color: #E1DFD0;
+	font-size: 13px;
+}
+
+
+
+
+
 .icon-stars { 
 	color: #DDC38A;
 	font-size: 8em;
@@ -43,7 +54,7 @@ a {
     -webkit-animation-name: pulsate;
     -webkit-animation-duration: 3s;
     -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite
+    -webkit-animation-iteration-count: infinite;
 }
 
 @keyframes pulsate {
