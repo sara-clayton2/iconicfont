@@ -128,21 +128,6 @@ a {
     100% { width:21px;height: 21px;  opacity: 1.0}
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .icon-sheepish { 
 	font-size: 4em;
 	color: #3A3A3A;
@@ -155,6 +140,7 @@ a {
 
 .bounce {
 	position: absolute;
+	padding: 3em;
     left: 45%;
 	right: 50%;
 	-webkit-animation: animated 6s linear infinite; 
@@ -171,18 +157,12 @@ a {
     to   { transform: rotate(360deg) translateX(50px) rotate(-360deg); }
 }
 
-
-
-
-
-
 .bounce2 {
 	position: absolute;
-    left: 50%;
+    left: 45%;
 	right: 50%;
 	-webkit-animation: animatez 6s linear infinite; 
     animation: animatez  6s linear infinite;
-
 }
 
 @-webkit-keyframes animatez{
@@ -195,29 +175,12 @@ a {
     to   { transform: rotate(360deg) translateX(50px) rotate(-360deg); }
 }
 
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 20em) { 
+@media only screen and (min-width: 30em) { 
 		
 .face { 
-	padding-top: 9em;
-	margin-left: 45%;
-    margin-right: 50%; 
-}
-	
-
+		padding-top: 9em;
+		margin-left: 45%;
+		margin-right: 50%; 
+	}
 }
 
-
-@media only screen and (min-width: 40em) { 
-
-
-}
