@@ -43,7 +43,7 @@ a {
     -webkit-animation-name: pulsate;
     -webkit-animation-duration: 3s;
     -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite
 }
 
 @keyframes pulsate {
@@ -128,10 +128,25 @@ a {
     100% { width:21px;height: 21px;  opacity: 1.0}
  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .icon-sheepish { 
-	font-size: 5em;
+	font-size: 4em;
 	color: #3A3A3A;
-	position: absolute;
+
 }
 
 .icon-sheepish:hover { 
@@ -139,169 +154,70 @@ a {
 }
 
 .bounce {
-	  position: absolute;
-	  left:50%;
-	  animation: animation 5s infinite ease-in-out;
-	  -webkit-animation: animation 5s infinite ease-in-out;
+	position: absolute;
+    left: 45%;
+	right: 50%;
+	-webkit-animation: animated 6s linear infinite; 
+    animation: animated  6s linear infinite;
 }
 
-@keyframes animation {
-    0% {
-        left: 0%;
-    }
-	
-	 50% {
-        top: 50%;
-    }
-	
+@-webkit-keyframes animated{
+    from { -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(50px) rotate(-360deg); }
+}
 
-    100% {
-        left: 100%;
-    }
+@keyframes animated {
+    from { transform: rotate(0deg) translateX(50px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(50px) rotate(-360deg); }
 }
 
 
-@-webkit-keyframes animation {
-    0% {
-        left: 0%;
-    }
-	
-	 50% {
-        top: 50%;
-    }
-	
 
-    100% {
-        left: 100%;
-    }
-}
+
+
 
 .bounce2 {
-  position: absolute;
-  left: -10%;
-  animation: animationz 7s infinite ease-in-out;
-  -webkit-animation: animationz 7s infinite ease-in-out;
-  -webkit-animation-delay: 3s; 
-   animation-delay: 3s;
+	position: absolute;
+    left: 50%;
+	right: 50%;
+	-webkit-animation: animatez 6s linear infinite; 
+    animation: animatez  6s linear infinite;
+
 }
 
-@keyframes animationz {
-    0% {
-        left: 0%;
-    }
-	
-	 50% {
-        top: 50%;
-    }
-	
-
-    100% {
-        left: 100%;
-    }
+@-webkit-keyframes animatez{
+    from { -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(50px) rotate(-360deg); }
 }
 
-@-webkit-keyframes animationz {
-    0% {
-        left: 0%;
-    }
-	
-	 50% {
-        top: 50%;
-    }
-	
-
-    100% {
-        left: 100%;
-    }
+@keyframes animatez {
+    from { transform: rotate(0deg) translateX(50px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(50px) rotate(-360deg); }
 }
 
-@media only screen and (min-width: 30em) { 
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 20em) { 
 		
 .face { 
 	padding-top: 9em;
 	margin-left: 45%;
     margin-right: 50%; 
 }
+	
 
 }
 
 
 @media only screen and (min-width: 40em) { 
 
-.bounce {
-	  position: absolute;
-	  left:50%;
-	  animation: animation 5s infinite ease-in-out;
-	  -webkit-animation: animation 5s infinite ease-in-out;
-}
-	
-@keyframes animation {
-    0% {
-        left: 0%;
-    }
-	
-	 50% {
-        top: 50%;
-    }
-	
-
-    100% {
-        left: 100%;
-    }
-}
-	
-@-webkit-keyframes animation {
-    0% {
-        left: 0%;
-    }
-	
-	 50% {
-        top: 50%;
-    }
-	
-
-    100% {
-        left: 100%;
-    }
-}
-
-.bounce2 {
-	  position: absolute;
-	  left: -10%;
-	  animation: animationz 7s infinite ease-in-out;
-	  -webkit-animation: animationz 7s infinite ease-in-out;
-	  -webkit-animation-delay: 2s; 
-	   animation-delay: 2s;
-}
-
-@keyframes animationz {
-    0% {
-        left: 0%;
-    }
-	
-	 50% {
-        top: 50%;
-    }
-	
-
-    100% {
-        left: 100%;
-    }
-}
-	
-@-webkit-keyframes animationz {
-    0% {
-        left: 0%;
-    }
-	
-	 50% {
-        top: 50%;
-    }
-	
-
-    100% {
-        left: 100%;
-    }
-}
 
 }
